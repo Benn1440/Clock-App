@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- wallclock build -->
+    <div class="container">
+            <h4 class="text-white mt-3">Works on your Timezone.</h4>
+        <div class="wallclock mt-4">
+            <canvas id="clock" width="200" height="200"></canvas>
+        </div>
+    </div>
+
+    <!-- count-down  section -->
+    <div class="container">
+        <div class="row">
+            <div class="m-auto col-sm-12">
+                <body onload="initClock() ">
+                    <div id="date">
+                        <a id="mon">January</a>
+                        <a id="d">1</a>,
+                        <a id="y">0</a><br />
+                        <a id="h">12</a> :
+                        <a id="m">00</a> :
+                        <a id="s">00</a> :
+                        <a id="mi">(000)</a>
+                      </div>
+                </body>
+            </div>
+        </div>
+    </div>
+    
+   <!-- footer section -->
+   <div class="container"> 
+        <footer class="text-white"><h6>&copy Copyright <a class="text-warning text-decoration-none fst-italic" href="https://www.linkedin.com/in/benedict-okafor-967779176/" target="_blank">Benedict Okafor 2021.</a></h6><br>
+        
+        <p class="foot"> Made with Love for humanity.</p>
+    </div>
+
+
+
+
+
+    <script src="js/app.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

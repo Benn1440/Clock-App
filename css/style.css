@@ -1,0 +1,26 @@
+body {
+    background-color:#291313;
+}
+.wallclock{
+    max-width: 600px;
+    margin: 0 auto;
+}
+canvas{
+    background: rgb(104, 96, 96);
+}
+#date{
+    font: small-caps lighter 43px/150% "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    text-align:left;
+    font-size: 2rem;
+    margin: 40px auto;
+    color:rgb(255, 251, 252);
+    border-left: 3px solid #e98385;
+    padding: 20px;
+}
+.foot{
+    font-size: x-small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    color: rgb(233, 18, 61);
+    margin-left: 50px;
+}
